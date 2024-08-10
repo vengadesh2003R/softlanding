@@ -1,0 +1,146 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+   
+}
+nav ul{
+    display: flex;
+    gap: 45px;
+    font-weight: bold;
+}
+nav li{
+    list-style: none;
+}
+.landingpage{
+    text-align: center;
+    margin-top: 130px;
+}
+.containerss{ 
+    background-image: linear-gradient(rgba(42, 42, 201, 0.473),rgba(128, 128, 128, 0.288)), url(home-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: transparent;
+
+}
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+.paragraph{
+    font-size: 42px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+form{
+    display: inline-block;
+}
+input[type="email"]{
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+}
+button[type="submit"]{
+    padding: 10px 20px ;
+    font-size: 16px;
+    border:none;
+    border-radius: 20px;
+    background-color: #20c997;
+    color: white;
+    margin-left: 10px;
+}
+button[type="submit"]:hover {
+    background-color: #17a589;
+}
+.Design{
+    margin-top: 30px;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    font-weight: 100;
+}
+.responsive{
+    display: flex;
+    gap: 10px;
+    padding: 10px ;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-weight: 100;
+}
+.wrappers-1{
+    margin-top: 50px;
+    font-weight: 100;
+}
+.wrappers-2{
+    margin-top: 35px;
+    font-weight: 100;
+}
+.Aliquam{
+    margin-top: 15px;
+}
+.laptops{
+    margin-top: 0px;
+}
+.paragraphs{
+    font-size: 18px;
+}
+.paragraphs h1{
+    font-size: 35px;
+}
+.photos-wrappers{
+    display: grid;
+    width: 100%;
+
+}
+.items1{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 50px;
+}
+.first-word{
+    margin-top: 100px;
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+.threebox{
+    display: grid;
+    height: 100vh;
+   
+}
+.dollars button{
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+
+}
+.one-last{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.formsss{
+
+    display: flex;
+    justify-content: center;
+    margin-left: 22rem;
+   
+}
+.col-auto button{
+    background-color: black;
+}
+.mb-3{
+    margin-left: 23rem;
+    margin-right: 23rem;
+}
+.finished{
+    margin-left: 25rem;
+    margin-top: 50px;
+}
